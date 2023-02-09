@@ -6,7 +6,7 @@ app.use(express.json());
 
 
 
-const mongoUrl="mongodb+srv://saurabh:surabh@cluster0.gb4bs0l.mongodb.net/?retryWrites=true&w=majority";
+const mongoUrl="";
 //saurabh:<password>@cluster0.gb4bs0l.mongodb.net/?retryWrites=true&w=majority
 mongoose.connect(mongoUrl, {
     useNewUrlParser : true
