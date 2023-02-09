@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <!-- <script>
+        function callval(){
+            var name= document.getElementById("username").value;
+            var pwd= document.getElementById("password").value;
+            var male= document.getElementById("male").value;
+            var female= document.getElementById("female").value;
+            var email= document.getElementById("email").value;
+            var countrycode= document.getElementById("code").value;
+            var phoneno= document.getElementById("no").value;
+
+            document.writeln(name+"<br>"+pwd+"<br>"+email+"<br>"+countrycode+"<br>"+phoneno+"<br>");
+            if(female==0) document.writeln("male");
+            else document.writeln("female");
+        }
+    </script> -->
+    <script src="project01-js.js"></script>
+</head>
+<body>
+    <form >
+        <!-- action="project01-js.js" -->
+        <!-- onsubmit="callval()" -->
+        <table>
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td>
+                    <input type="text" name="" placeholder="Name" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="Password" name="" placeholder="Password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="Gender" id="male">Male
+                    <input type="radio" name="Gender" id="female">Female
+                      
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E-mail :
+                </td>
+                <td>
+                    <input type="mail" placeholder="E-mail" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone no :
+                </td>
+                <td>
+                    <select name="" id="code">
+                        <option value="">+91</option>
+                        <option value="">+1</option>
+                        <option value="">+92</option>
+                        <option value="">+95</option>
+                        <option value="">+96</option>
+
+                    </select>
+                    <input type="Phone" placeholder="Phone Number" id="no">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="SUbmit" name=""  value="Submit" onclick="test()">
+                </td>
+            </tr>
+        </table>
+    </form>
+   
+    
+</body>
+</html>
